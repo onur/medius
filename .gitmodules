@@ -1,0 +1,3 @@
+[submodule "themes/medius"]
+	path = themes/medius
+	url = https://github.com/onuraslan/medius.git
