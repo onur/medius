@@ -1,0 +1,6 @@
+Medius is a template for [Pelican](https://github.com/getpelican/pelican). It is
+heavly inspired from [medium](https://medium.com). Medius means medium in
+Latin.
+
+See details and usage info in [demo
+website](https://onuraslan.github.io/medius/medius.html).
