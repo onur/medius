@@ -127,11 +127,14 @@ div.post-content, div.entry-content {
 
     a {
         color: rgba(0, 0, 0, 0.8);
-        background-position: 0px 23px;
+        background-position: 0px 20px;
         background-repeat: repeat-x;
         background-size: 2px 2px;
         background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 50%);
 
+        @media #{$media-sm} {
+            background-position: 0px 23px;
+        }
     }
 }
 
@@ -150,13 +153,16 @@ div.second-nav-container {
         text-align: center;
 
         ul.main-nav-list {
-            min-width: 560px;
             list-style-position: outside;
             display: inline-block;
             list-style: none;
             padding: 0;
             margin: 0 auto;
             text-align: left;
+
+            @media #{$media-md} {
+                min-width: 560px;
+            }
 
             li.main-nav-item {
                 display: inline-block;
@@ -197,13 +203,23 @@ div.main-container {
 
     text-align: right;
     margin-top: 67px;
+    padding: 20px;
+
+    @media #{$media-md} {
+        padding: 0;
+    }
 
     div.post {
-        width: 580px;
+        width: 100%;
         margin: 0 auto;
         text-align: left;
         border-bottom: 1px solid rgba(0,0,0,0.1);
-        padding: 20px 0 25px;
+        padding: 0;
+
+        @media #{$media-md} {
+            width: 580px;
+            padding: 20px 0 25px;
+        }
 
 
         h2 {
@@ -236,8 +252,17 @@ div.main-container {
 
     div.right-container {
         text-align: right;
-        width: 400px;
-        float: right;
+        width: 100%;
+
+        @media #{$media-md} {
+            width: 580px;
+            margin: 0 auto;
+        }
+
+        @media #{$media-lg} {
+            width: 400px;
+            float: right;
+        }
 
         div.right-bar {
             text-align: left;
@@ -259,20 +284,28 @@ div.main-container {
 
     img.post-image {
         margin-top: 20px;
-        max-width: 420px;  // FIXME: this is not how post images displayed
-                           //        in medium. This is my lazy way to show
-                           //        post images. But since pelican is a
-                           //        static website generator, I think this
-                           //        way is more suitable for it.
+        width: 90%;
+
+        @media #{$media-md} {
+            max-width: 420px;  // FIXME: this is not how post images displayed
+                               //        in medium. This is my lazy way to show
+                               //        post images. But since pelican is a
+                               //        static website generator, I think this
+                               //        way is more suitable for it.
+        }
     }
 
 
     footer.index-footer {
 
-        width: 580px;
+        width: 100%;
         margin: 0 auto;
         text-align: left;
         padding: 10px 0 25px;
+
+        @media #{$media-md} {
+            width: 580px;
+        }
 
         a {
             display: inline-block;
@@ -358,6 +391,10 @@ div.post-meta {
 }
 
 
+//////////////////////////////////////////////////
+//             article and page                 //
+//////////////////////////////////////////////////
+
 div.page-container {
     text-align: center;
     margin-top: 80px;
@@ -367,8 +404,13 @@ div.page-container {
         margin: 0 auto;
         text-align: left;
         font-family: $font-family-serif;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.5;
+        padding: 20px;
+
+        @media #{$media-sm} {
+            font-size: 22px;
+        }
     }
 
 
@@ -378,10 +420,14 @@ div.page-container {
         max-width: 700px;
 
         div.post-footer {
-            padding: 40px 0;
+            padding: 20px;
             border-top: 1px solid rgba(0,0,0,0.1);
             border-bottom: 1px solid rgba(0,0,0,0.1);
             margin: 30px 0 40px 0;
+
+            @media #{$media-md} {
+                padding: 40px 0;
+            }
 
             h3 {
                 font-size: 18px;
@@ -435,6 +481,15 @@ div.page-container {
         }
     }
 
+
+    div.tags {
+        padding: 20px;
+
+        @media #{$media-md} {
+            padding: 0;
+        }
+    }
+
 }
 
 
@@ -465,21 +520,42 @@ div.article-header-container {
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+                width: 95%;
+
+                @media #{$media-sm} {
+                    width: 80%;
+                }
+
+                @media #{$media-md} {
+                    width: 90%;
+                }
             }
 
             h1 {
-                font-size: 60px;
-                line-height: 60px;
+                font-size: 36px;
+                line-height: 36px;
                 margin: 0;
+
+                @media #{$media-sm} {
+                    font-size: 60px;
+                    line-height: 60px;
+                }
             }
 
             h2 {
-                font-size: 36px;
-                line-height: 36px;
+                font-size: 24px;
+                line-height: 24px;
                 margin: 10px 0;
+                font-weight: 300;
+
+                @media #{$media-sm} {
+                    font-size: 36px;
+                    line-height: 36px;
+                }
             }
 
             img {
+                width: 100%;
                 visibility: hidden;
             }
 
@@ -491,27 +567,44 @@ div.article-header-container {
             margin-top: 20px;
 
             img {
-                max-width: 80%;
+                max-width: 90%;
+
+                @media #{$media-md} {
+                    max-width: 80%;
+                }
             }
 
             div.title-container {
 
-                width: 700px;
-                margin: 0 auto;
+                width: 100%;
+                margin: 20px auto;
                 margin-bottom: 40px;
 
+                @media #{$media-md} {
+                    width: 700px;
+                    margin: 0 auto;
+                }
+
                 h1 {
-                    font-size: 60px;
+                    font-size: 36px;
                     line-height: 1;
                     margin: 40px 20px 10px 20px;
+
+                    @media #{$media-sm} {
+                        font-size: 60px;
+                    }
                 }
 
                 h4 {
-                    font-size: 32px;
+                    font-size: 24px;
                     font-weight: 300;
                     color: rgba(0,0,0,0.44);
                     line-height: 1.2;
                     margin: 0;
+
+                    @media #{$media-sm} {
+                        font-size: 32px;
+                    }
                 }
 
             }
@@ -533,6 +626,7 @@ div.article-header-container {
 div.category-page-container {
     max-width: 1040px;
     margin: 80px auto;
+    padding: 0 20px;
 
     div.category-logo img {
         max-width: 440px;
@@ -615,7 +709,11 @@ div.category-page-container {
         }
 
         h1 {
-            font-size: 36px;
+            font-size: 24px;
+            
+            @media #{$media-sm} {
+                font-size: 36px;
+            }
         }
 
         h2 {
@@ -672,9 +770,13 @@ div.author-page-header {
 
 
     div.author-profile {
-        width: 700px;
+        width: 95%;
         margin: 0 auto;
         margin-bottom: 100px;
+
+        @media #{$media-md} {
+            width: 700px;
+        }
 
         h1 {
             font-weight: bold;
@@ -799,11 +901,18 @@ div.author-page-container {
        }
 
        img.post-image {
-           max-width: 420px;  // FIXME: this is not how post images displayed
-                              //        in medium. This is my lazy way to show
-                              //        post images. But since pelican is a
-                              //        static website generator, I think this
-                              //        way is more suitable for it.
+
+           width: 95%;
+
+           @media #{$media-sm} {
+               max-width: 420px;  // FIXME: this is not how post images
+                                  //        displayed in medium. This is my
+                                  //        lazy way to show post images. But
+                                  //        since pelican is a static website
+                                  //        generator, I think this way is
+                                  //        more suitable for it.
+         
+           }
        }
     }
 }
