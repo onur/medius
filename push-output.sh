@@ -5,4 +5,5 @@
 git push origin :gh-pages
 git reset --soft HEAD~1
 git add .
+git commit -m 'Update output' -a
 git push origin gh-pages
