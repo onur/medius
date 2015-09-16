@@ -20,8 +20,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = True
 
-DEFAULT_PAGINATION = 10
+DISQUS_SITENAME = 'medius-theme'
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
