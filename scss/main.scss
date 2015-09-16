@@ -234,6 +234,9 @@ div.main-container {
             font-family: $font-family-serif;
             font-size: 18px;
             color: rgba(0,0,0,0.8);
+            a {
+                background-position: 0px 23px;
+            }
         }
 
        div.post-footer a {
@@ -892,7 +895,9 @@ div.author-page-container {
            font-family: $font-family-serif;
            font-size: 18px;
            line-height: 1.45;
-
+            a {
+                background-position: 0px 23px;
+            }
        }
 
        div.post-footer a {
