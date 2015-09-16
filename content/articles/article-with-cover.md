@@ -6,7 +6,7 @@ Image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-b
 SmallImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/800px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
 
 Medius is a template for [Pelican](http://blog.getpelican.com/). It is
-heavly inspired from [medium](https://medium.com). Medius means medium in
+heavily inspired from [medium](https://medium.com). Medius means medium in
 Latin.
 
 It is still under heavy development and medius doesn't support small
@@ -15,9 +15,9 @@ added soon.
 
 Medius comes with few templates:
 
-1. [Index](/index.html)
+1. [Index]({index})
 2. [Category Page]({category}Category)
-3. [Author Page](/author/onur-aslan.html)
+3. [Author Page]({author}Onur Aslan)
 
 
 ### Fonts
@@ -56,7 +56,7 @@ Links must be a list of tuples.
 icons. First element must contain name of icon without fa prefix and second
 element must be URL for this icon.
 
- Example
+Example
 `MEDIUS_AUTHORS` defined in pelicanconf.py for this demo:
 
 
@@ -74,7 +74,7 @@ MEDIUS_AUTHORS = {
 }
 ```
 
-If you visit my [author page](/author/onur-aslan.html), you can see my
+If you visit my [author page]({author}Onur Aslan), you can see my
 cover image, description and profile image.
 
 
@@ -101,4 +101,4 @@ You don't need to supply a `Image` or `SmallImage` in your posts, but
 [category pages]({category}Category) will look better if you supply
 `SmallImage` in all of your posts.
 
-Demo is fully available in [demo branch](https://github.com/onuraslan/medius/tree/gh-pages).
+Demo is fully available in [demo branch](https://github.com/onuraslan/medius/tree/demo).
