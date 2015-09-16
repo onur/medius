@@ -3,8 +3,10 @@
 {% block content %}
 <div class="author-page-header">
     {% if author|string in MEDIUS_AUTHORS %}
+    {% if MEDIUS_AUTHORS.get(author|string).cover %}
     <div class="cover" style="background-image: url({{ MEDIUS_AUTHORS.get(author|string).cover }})"></div>
-    <div class="avatar"><img src="{{ MEDIUS_AUTHORS.get(author|string).image}}" alt="{{ author|striptags }}"></div>
+    {% endif %}
+    <div class="avatar{% if not MEDIUS_AUTHORS.get(author|string).cover %}-no-cover{% endif %}"><img src="{{ MEDIUS_AUTHORS.get(author|string).image}}" alt="{{ author|striptags }}"></div>
     <div class="author-profile">
         <h1>{{ author }}</h1>
         <p class="author-description">

@@ -757,8 +757,7 @@ div.author-page-header {
         background-position: 50% 50%;
     }
 
-    div.avatar {
-        margin-top: -60px;
+    div.avatar, div.avatar-no-cover {
         display: inline-block;
         width: 120px;
         height: 120px;
@@ -766,6 +765,14 @@ div.author-page-header {
         img {
             border-radius: 100%;
         }
+    }
+
+    div.avatar {
+        margin-top: -60px;
+    }
+
+    div.avatar-no-cover {
+        margin-top: 60px;
     }
 
 

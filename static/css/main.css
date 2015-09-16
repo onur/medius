@@ -129,8 +129,10 @@ div.category-page-container div.article-info div.post-meta img { border-radius: 
 
 div.author-page-header { margin-top: 66px; }
 div.author-page-header div.cover { height: 400px; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
-div.author-page-header div.avatar { margin-top: -60px; display: inline-block; width: 120px; height: 120px; }
-div.author-page-header div.avatar img { border-radius: 100%; }
+div.author-page-header div.avatar, div.author-page-header div.avatar-no-cover { display: inline-block; width: 120px; height: 120px; }
+div.author-page-header div.avatar img, div.author-page-header div.avatar-no-cover img { border-radius: 100%; }
+div.author-page-header div.avatar { margin-top: -60px; }
+div.author-page-header div.avatar-no-cover { margin-top: 60px; }
 div.author-page-header div.author-profile { width: 95%; margin: 0 auto; margin-bottom: 100px; }
 @media screen and (min-width: 48em) { div.author-page-header div.author-profile { width: 700px; } }
 div.author-page-header div.author-profile h1 { font-weight: bold; font-size: 50px; letter-spacing: -2px; margin: 16px 0; }
