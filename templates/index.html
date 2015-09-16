@@ -30,7 +30,9 @@
                         &mdash; <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
                     </div>
                 </div>
-                {% if article.smallimage %}<img src="{{ article.smallimage }}" alt="" class="post-image"/>{% endif %}
+                {% if article.smallimage %}
+                <a href="{{ SITEURL }}/{{ article.url }}"><img src="{{ article.smallimage }}" alt="{{ article.title|striptags }}" class="post-image"/></a>
+                {% endif %}
                 <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
                 <div class="post-content">
                     {{ article.summary }}
