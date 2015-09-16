@@ -224,7 +224,7 @@ div.main-container {
 
         h2 {
             font-size: 28px;
-            a { 
+            a {
                 color: rgba(0,0,0,0.8);
                 text-decoration: none;
             }
@@ -716,7 +716,7 @@ div.category-page-container {
 
         h1 {
             font-size: 24px;
-            
+
             @media #{$media-sm} {
                 font-size: 36px;
             }
@@ -767,7 +767,7 @@ div.author-page-header {
         display: inline-block;
         width: 120px;
         height: 120px;
-    
+
         img {
             border-radius: 100%;
         }
@@ -926,7 +926,7 @@ div.author-page-container {
                                   //        since pelican is a static website
                                   //        generator, I think this way is
                                   //        more suitable for it.
-         
+
            }
        }
     }
