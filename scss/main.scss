@@ -637,12 +637,15 @@ div.category-page-container {
     }
 
     div.category-logo h1 {
-        color: rgba(0,0,0,0.9);
         font-size: 50px;
         font-weight: bold;
         line-height: 1;
         word-break: break-word;
         word-wrap: break-word;
+        a {
+            color: rgba(0,0,0,0.9);
+            text-decoration: none;
+        }
     }
 
     div.section-header {

@@ -110,7 +110,8 @@ div.article-header-container div.background-image-container div.background-image
 
 div.category-page-container { max-width: 1040px; margin: 80px auto; padding: 0 20px; }
 div.category-page-container div.category-logo img { max-width: 440px; margin: 50px 0; }
-div.category-page-container div.category-logo h1 { color: rgba(0, 0, 0, 0.9); font-size: 50px; font-weight: bold; line-height: 1; word-break: break-word; word-wrap: break-word; }
+div.category-page-container div.category-logo h1 { font-size: 50px; font-weight: bold; line-height: 1; word-break: break-word; word-wrap: break-word; }
+div.category-page-container div.category-logo h1 a { color: rgba(0, 0, 0, 0.9); text-decoration: none; }
 div.category-page-container div.section-header { color: rgba(0, 0, 0, 0.6); text-transform: uppercase; border-bottom: 1px solid rgba(0, 0, 0, 0.15); text-align: left; font-size: 11px; letter-spacing: .1em; font-weight: bold; padding-bottom: 6px; }
 div.category-page-container span.header { position: absolute !important; top: -9999px !important; left: -9999px !important; }
 div.category-page-container div.article-row div.col { padding: 20px 30px 20px 0; }
