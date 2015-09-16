@@ -3,9 +3,9 @@
 <div class="category-page-container">
     <div class="category-logo">
         {% if category|string in MEDIUS_CATEGORIES and MEDIUS_CATEGORIES.get(category|string).logo %}
-        <img src="{{ MEDIUS_CATEGORIES.get(category|string).logo }}" alt="{{ category|striptags }}"/>
+        <a href="{{ SITEURL }}/{{ category.url }}" rel="bookmark" title="Permalink to {{ category|striptags }}"><img src="{{ MEDIUS_CATEGORIES.get(category|string).logo }}" alt="{{ category|striptags }}"/></a>
         {% else %}
-        <h1>{{ category }}</h1>
+        <h1><a href="{{ SITEURL }}/{{ category.url }}" rel="bookmark" title="Permalink to {{ category|striptags }}">{{ category }}</a></h1>
         {% endif %}
     </div>
 
