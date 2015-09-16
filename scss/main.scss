@@ -50,52 +50,6 @@ div.metabar-container {
 
 }
 
-nav.main-nav {
-
-    text-align: left;
-
-    div.main-nav-container {
-        width: 580px;
-        margin: 0 auto;
-
-        ul.main-nav-list {
-            list-style-position: outside;
-            display: inline-block;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-
-            li.main-nav-item {
-                display: inline-block;
-                margin-right: 20px;
-                margin-top: -1px;
-
-                list-style-position: outside;
-
-                a {
-                    padding: 31px 0 20px;
-                    letter-spacing: .1em;
-                    text-transform: uppercase;
-                    font-size: 11px;
-                }
-                a:hover, a:focus {
-                    color: rgba(0,0,0,0.9);
-                    // override pure background
-                    background: none;
-                }
-            }
-
-            li.active {
-                border-bottom: 2px rgba(0,0,0,0.8) solid;
-                a {
-                    color: rgba(0,0,0,0.8);
-                    font-weight: bold;
-                }
-            }
-
-        }
-    }
-}
 
 div.post-content, div.entry-content {
     font-family: $font-family-serif;
@@ -139,7 +93,7 @@ div.post-content, div.entry-content {
 }
 
 
-div.second-nav-container {
+div.main-nav-container {
 
     height: 65px;
     position: absolute;
@@ -149,7 +103,7 @@ div.second-nav-container {
     box-shadow: 0 0 1px rgba(0,0,0,0.15);
 
 
-    div.second-nav {
+    div.main-nav {
         text-align: center;
 
         ul.main-nav-list {
