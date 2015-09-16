@@ -4,8 +4,9 @@
     <div class="category-logo">
         {% if category|string in MEDIUS_CATEGORIES and MEDIUS_CATEGORIES.get(category|string).logo %}
         <img src="{{ MEDIUS_CATEGORIES.get(category|string).logo }}" alt="{{ category|striptags }}"/>
-        {% endif %}
+        {% else %}
         <h1>{{ category }}</h1>
+        {% endif %}
     </div>
 
     <div class="section-header">
