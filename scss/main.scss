@@ -220,6 +220,18 @@ div.main-container {
             color: rgba(0,0,0,0.8);
         }
 
+       div.post-footer a {
+           color: #57ad68;
+           font-size: 14px;
+           line-height: 35px;
+           text-decoration: none;
+           letter-spacing: -0.02em;
+       }
+
+       div.post-footer a:hover {
+           text-decoration: underline;
+       }
+
     }
 
     div.right-container {
@@ -292,6 +304,10 @@ div.main-container {
             margin: 0;
         }
 
+    }
+
+    div.pagination {
+        width: 580px;
     }
 
 }
@@ -585,16 +601,17 @@ div.category-page-container {
     div.article-info {
         text-align: left;
 
+        a {
+            color: rgba(0,0,0,0.9);
+            text-decoration: none;
+        }
+
         h1, h2 {
             line-height: 1.1;
             font-weight: bold;
             letter-spacing: -0.02em;
             padding: 10px 0;
             margin: 0;
-            a {
-                color: rgba(0,0,0,0.9);
-                text-decoration: none;
-            }
         }
 
         h1 {
@@ -815,6 +832,39 @@ div.tags a:hover {
 
 pre {
     font-size: 14px;
+}
+
+
+// pagination
+div.pagination {
+    margin: 20px auto;
+    div.left {
+        text-align: left;
+    }
+    div.right {
+        text-align: right;
+    }
+    a {
+        display: inline-block;
+        line-height: 31px;
+        padding: 0 14px;
+        font-size: 12px;
+        transition: 100ms background-color,100ms border-color,100ms color,100ms fill;
+        border: 1px solid rgba(0,0,0,0.15);
+        border-radius: 999em;
+        color: rgba(0,0,0,0.44);
+        text-decoration: none;
+    }
+    a:hover {
+        color: rgba(0,0,0,0.6);
+        border-color: rgba(0,0,0,0.3);
+    }
+    a:active {
+        outline: none;
+        color: rgba(0,0,0,0.8);
+        border-color: rgba(0,0,0,0.6);
+    }
+
 }
 
 

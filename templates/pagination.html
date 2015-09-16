@@ -1,0 +1,16 @@
+{% if DEFAULT_PAGINATION %}
+<div class="pagination">
+    <div class="post-meta pure-g">
+        {% if articles_page.has_previous() %}
+        <div class="pure-u-1-2 left">
+            <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">Previous articles</a>
+        </div>
+        {% endif %}
+        {% if articles_page.has_next() %}
+        <div class="pure-u-1-2 right">
+            <a href="{{ SITEURL }}/{{ articles_next_page.url }}">More articles</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

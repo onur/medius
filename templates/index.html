@@ -41,6 +41,8 @@
             </div>
             {% endfor %}
 
+            {% include "pagination.html" %}
+
             <footer class="index-footer">
 
                 <a href="{{ SITEURL }}/" title="{{ SITENAME|striptags }}">{{ SITENAME }}</a></li>
@@ -60,6 +62,7 @@
                 {% for title, link in LINKS %}
                 <a href="{{ link }}">{{ title }}</a>
                 {% endfor %}
+
             </footer>
             
         </div>
