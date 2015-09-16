@@ -10,7 +10,7 @@
             </div>
             {% endif %}
             <div class="pure-u-3-4 meta-data">
-                <a href="{{ article.category.url }}" class="category">{{ article.category }}</a><br />
+                <a href="{{ SITEURL }}/{{ article.category.url }}" class="category">{{ article.category }}</a><br />
 
                 {% for author in article.authors %}
                 <a class="author" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
@@ -96,7 +96,7 @@
                         <img src="{{ MEDIUS_CATEGORIES.get(article.category|string).thumbnail }}" alt="">
                     </div>
                     <div class="pure-u-3-4">
-                        <h3 class="author-name"><a href="{{ article.category.url }}">{{ article.category }}</a></h3>
+                        <h3 class="author-name"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></h3>
                         <p class="author-description">
                           {{ MEDIUS_CATEGORIES.get(article.category|string).description }}
                         </p>
