@@ -5,13 +5,9 @@ SubTitle: The medium is the message
 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/1920px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
 SmallImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/800px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
 
-Medius is a template for [Pelican](http://blog.getpelican.com/). It is
-heavily inspired from [medium](https://medium.com). Medius means medium in
-Latin.
-
-It is still under heavy development and medius doesn't support small
-screens yet. I am working on responsive part of the theme and it will be
-added soon.
+Medius is a fully responsive theme for
+[Pelican](http://blog.getpelican.com/). It is heavily inspired from
+[medium](https://medium.com). Medius means medium in Latin.
 
 Medius comes with few templates:
 
@@ -102,3 +98,6 @@ You don't need to supply a `Image` or `SmallImage` in your posts, but
 `SmallImage` in all of your posts.
 
 Demo is fully available in [demo branch](https://github.com/onuraslan/medius/tree/demo).
+
+*All images used in this demo are taken from Wikipedia commons and they are
+released to public domain by NASA.*
