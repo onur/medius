@@ -130,19 +130,24 @@ div.category-page-container div.article-info div.post-meta { padding: 18px 0; }
 div.category-page-container div.article-info div.post-meta img { border-radius: 100%; }
 
 div.author-page-header { margin-top: 66px; }
-div.author-page-header div.cover { height: 400px; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
+div.author-page-header div.cover { height: 175px; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
+@media screen and (min-width: 35.5em) { div.author-page-header div.cover { height: 300px; } }
+@media screen and (min-width: 48em) { div.author-page-header div.cover { height: 400px; } }
 div.author-page-header div.avatar, div.author-page-header div.avatar-no-cover { display: inline-block; width: 120px; height: 120px; }
 div.author-page-header div.avatar img, div.author-page-header div.avatar-no-cover img { border-radius: 100%; }
 div.author-page-header div.avatar { margin-top: -60px; }
 div.author-page-header div.avatar-no-cover { margin-top: 60px; }
-div.author-page-header div.author-profile { width: 95%; margin: 0 auto; margin-bottom: 100px; }
+div.author-page-header div.author-profile { width: 95%; margin: 0 auto; margin-bottom: 60px; }
 @media screen and (min-width: 48em) { div.author-page-header div.author-profile { width: 700px; } }
-div.author-page-header div.author-profile h1 { font-weight: bold; font-size: 50px; letter-spacing: -2px; margin: 16px 0; }
+div.author-page-header div.author-profile h1 { font-weight: bold; font-size: 36px; letter-spacing: -2px; margin: 16px 0; }
+@media screen and (min-width: 35.5em) { div.author-page-header div.author-profile h1 { font-size: 50px; } }
 div.author-page-header div.author-profile p.author-description { font-size: 18px; color: rgba(0, 0, 0, 0.6); outline: 0; word-break: break-word; word-wrap: break-word; letter-spacing: -0.02em; }
 div.author-page-header div.author-profile ul.author-links { list-style-type: none; margin: 0; padding: 0; }
-div.author-page-header div.author-profile ul.author-links li { display: inline; margin: 0 4px; }
-div.author-page-header div.author-profile ul.author-links li a { color: rgba(0, 0, 0, 0.8); font-size: 24px; }
+div.author-page-header div.author-profile ul.author-links li { display: inline; }
+div.author-page-header div.author-profile ul.author-links li a { color: rgba(0, 0, 0, 0.8); font-size: 48px; border-right: 1px solid rgba(0, 0, 0, 0.05); padding: 0 10px; }
+@media screen and (min-width: 35.5em) { div.author-page-header div.author-profile ul.author-links li a { font-size: 64px; padding: 0 15px; } }
 div.author-page-header div.author-profile ul.author-links li a:hover { color: rgba(0, 0, 0, 0.6); }
+div.author-page-header div.author-profile ul.author-links li:last-child a { border-right: none; }
 
 div.author-page-divider:before { content: ""; display: block; position: absolute; top: 11px; width: 100%; border-top: 1px solid rgba(0, 0, 0, 0.15); }
 

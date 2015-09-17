@@ -752,10 +752,18 @@ div.author-page-header {
     //       I may implement medium like static background
     //       and transition in future
     div.cover {
-        height: 400px;
+        height: 175px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50% 50%;
+
+        @media #{$media-sm} {
+            height: 300px;
+        }
+
+        @media #{$media-md} {
+            height: 400px;
+        }
     }
 
     div.avatar, div.avatar-no-cover {
@@ -780,7 +788,7 @@ div.author-page-header {
     div.author-profile {
         width: 95%;
         margin: 0 auto;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
 
         @media #{$media-md} {
             width: 700px;
@@ -788,9 +796,13 @@ div.author-page-header {
 
         h1 {
             font-weight: bold;
-            font-size: 50px;
+            font-size: 36px;
             letter-spacing: -2px;
             margin: 16px 0;
+
+            @media #{$media-sm} {
+                font-size: 50px;
+            }
         }
 
         p.author-description {
@@ -809,16 +821,26 @@ div.author-page-header {
 
             li {
                 display: inline;
-                margin: 0 4px;
 
                 a {
                     color: rgba(0, 0, 0, 0.8);
-                    font-size: 24px;
+                    font-size: 48px;
+                    border-right: 1px solid rgba(0,0,0,0.05);
+                    padding: 0 10px;
+
+                    @media #{$media-sm} {
+                        font-size: 64px;
+                        padding: 0 15px;
+                    }
                 }
 
                 a:hover {
                     color: rgba(0, 0, 0, 0.6);
                 }
+            }
+
+            li:last-child a {
+                border-right: none;
             }
 
         }
