@@ -919,6 +919,14 @@ pre {
     font-size: 14px;
 }
 
+blockquote {
+    border-left: 3px solid rgba(0,0,0,0.8);
+    font-style: italic;
+    padding-left: 20px;
+    margin-left: -23px;
+    margin-bottom: 30px;
+}
+
 
 // pagination
 div.pagination {
