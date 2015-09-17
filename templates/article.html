@@ -40,8 +40,8 @@
             </div>
             {% else %}
             <div class="background-image-small">
-                {% if article.smallimage %}
-                <img src="{{ article.smallimage }}" alt="{{ article.title|striptags }}">
+                {% if article.thumbnail %}
+                <img src="{{ article.thumbnail }}" alt="{{ article.title|striptags }}">
                 {% endif %}
                 <div class="title-container">
                     <h1>{{ article.title }}</h1>
