@@ -24,9 +24,9 @@
         <div class="background-image-container">
 
             {# title with big background image #}
-            {% if article.image %}
-            <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ article.image }});">
-                <img src="{{ article.image }}" alt="{{ article.title|striptags }}">
+            {% if article.cover %}
+            <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ article.cover }});">
+                <img src="{{ article.cover }}" alt="{{ article.title|striptags }}">
                 <div class="title">
                 <h1>
                     {{ article.title }}
