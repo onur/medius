@@ -31,8 +31,8 @@ div.main-nav-container div.main-nav ul.main-nav-list li.active a { color: rgba(0
 
 div.main-container { text-align: right; margin-top: 67px; padding: 20px; }
 @media screen and (min-width: 48em) { div.main-container { padding: 0; } }
-div.main-container div.post { width: 100%; margin: 20px auto; text-align: left; border-bottom: 1px solid rgba(0, 0, 0, 0.1); padding-bottom: 20px; }
-@media screen and (min-width: 48em) { div.main-container div.post { width: 580px; } }
+div.main-container div.post { width: 100%; margin: 0 auto; text-align: left; border-bottom: 1px solid rgba(0, 0, 0, 0.1); padding: 0; }
+@media screen and (min-width: 48em) { div.main-container div.post { width: 580px; padding: 20px 0 25px; } }
 div.main-container div.post h2 { font-size: 28px; }
 div.main-container div.post h2 a { color: rgba(0, 0, 0, 0.8); text-decoration: none; }
 div.main-container div.post div.post-content { font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; color: rgba(0, 0, 0, 0.8); }
@@ -88,22 +88,21 @@ div.article-header-container div.background-image-container div.background-image
 @media screen and (min-width: 35.5em) { div.article-header-container div.background-image-container div.background-image h1 { font-size: 60px; line-height: 60px; } }
 div.article-header-container div.background-image-container div.background-image h2 { font-size: 24px; line-height: 24px; margin: 10px 0; font-weight: 300; }
 @media screen and (min-width: 35.5em) { div.article-header-container div.background-image-container div.background-image h2 { font-size: 36px; line-height: 36px; } }
-div.article-header-container div.background-image-container div.background-image img { width: 100%; height: 270px; visibility: hidden; }
-@media screen and (min-width: 35.5em) { div.article-header-container div.background-image-container div.background-image img { height: 100%; } }
+div.article-header-container div.background-image-container div.background-image img { width: 100%; visibility: hidden; }
 div.article-header-container div.background-image-container div.background-image-small { margin-top: 20px; }
 div.article-header-container div.background-image-container div.background-image-small img { max-width: 90%; }
 @media screen and (min-width: 48em) { div.article-header-container div.background-image-container div.background-image-small img { max-width: 80%; } }
 div.article-header-container div.background-image-container div.background-image-small div.title-container { width: 100%; margin: 20px auto; margin-bottom: 40px; }
 @media screen and (min-width: 48em) { div.article-header-container div.background-image-container div.background-image-small div.title-container { width: 700px; margin: 0 auto; } }
-div.article-header-container div.background-image-container div.background-image-small div.title-container h1 { font-size: 36px; line-height: 1; margin: 40px 20px 10px 20px; padding-top: 20px; }
+div.article-header-container div.background-image-container div.background-image-small div.title-container h1 { font-size: 36px; line-height: 1; margin: 40px 20px 10px 20px; }
 @media screen and (min-width: 35.5em) { div.article-header-container div.background-image-container div.background-image-small div.title-container h1 { font-size: 60px; } }
 div.article-header-container div.background-image-container div.background-image-small div.title-container h4 { font-size: 24px; font-weight: 300; color: rgba(0, 0, 0, 0.44); line-height: 1.2; margin: 0; }
 @media screen and (min-width: 35.5em) { div.article-header-container div.background-image-container div.background-image-small div.title-container h4 { font-size: 32px; } }
 
 div.category-page-container { max-width: 1040px; margin: 80px auto; padding: 0 20px; }
 div.category-page-container div.category-logo img { max-width: 440px; margin: 50px 0; }
-div.category-page-container div.category-logo h1 { font-size: 50px; font-weight: bold; line-height: 1; word-break: break-word; word-wrap: break-word; padding-top: 20px; }
-div.category-page-container div.category-logo h1 a { color: rgba(0, 0, 0, 0.8); text-decoration: none; }
+div.category-page-container div.category-logo h1 { font-size: 50px; font-weight: bold; line-height: 1; word-break: break-word; word-wrap: break-word; }
+div.category-page-container div.category-logo h1 a { color: rgba(0, 0, 0, 0.9); text-decoration: none; }
 div.category-page-container div.section-header { color: rgba(0, 0, 0, 0.6); text-transform: uppercase; border-bottom: 1px solid rgba(0, 0, 0, 0.15); text-align: left; font-size: 11px; letter-spacing: .1em; font-weight: bold; padding-bottom: 6px; }
 div.category-page-container span.header { position: absolute !important; top: -9999px !important; left: -9999px !important; }
 div.category-page-container div.article-row div.col { padding: 20px 30px 20px 0; }

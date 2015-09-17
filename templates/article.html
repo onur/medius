@@ -79,7 +79,9 @@
                     <div class="pure-u-3-4">
                         <h3 class="author-name"><a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a></h3>
                         <p class="author-description">
+                          {% if MEDIUS_AUTHORS %}
                           {{ MEDIUS_AUTHORS.get(author|string).description }}
+                          {% endif %}
                         </p>
                     </div>
                 </div>
