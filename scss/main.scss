@@ -250,10 +250,10 @@ div.main-container {
 
         @media #{$media-md} {
             max-width: 420px;  // FIXME: this is not how post images displayed
-            //        in medium. This is my lazy way to show
-            //        post images. But since pelican is a
-            //        static website generator, I think this
-            //        way is more suitable for it.
+                               //        in medium. This is my lazy way to show
+                               //        post images. But since pelican is a
+                               //        static website generator, I think this
+                               //        way is more suitable for it.
         }
     }
 
