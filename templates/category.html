@@ -134,7 +134,7 @@
     {% set i = i + 1 %}
     {% endfor %}
 
-    {% if i + 2 % 3 != 0 %}
+    {% if articles_page.object_list|length % 3 != 0 %}
     </div>
     {% endif %}
 
