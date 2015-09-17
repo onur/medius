@@ -915,7 +915,13 @@ div.tags a:hover {
 
 
 pre {
-    font-size: 14px;
+    font-family: Consolas, 'Deja Vu Sans Mono', 'Ubuntu Mono', 'Bitstream Vera Sans Mono', Monaco, 'Courier New';
+    font-size: 16px;
+    line-height: 1.4;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 9.5px;
 }
 
 blockquote {
@@ -962,8 +968,6 @@ div.pagination {
 
 
 /* pygments */
-.highlight .hll { background-color: #ffffcc }
-.highlight  { background: #f8f8f8; }
 .highlight .c { color: #8f5902; font-style: italic }
 .highlight .err { color: #a40000; border: 1px solid #ef2929 }
 .highlight .g { color: #000000 }
