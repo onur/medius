@@ -86,8 +86,8 @@ cover image, description and profile image.
 
 A post can have a `SubTitle`, a big `Cover` image and a `Thumbnail` that
 is used in various places. `Cover` is only used in article.html and it's
-cover image of the page. For example this page has a cover `Cover` defined in
-post meta data. Example meta data used in this post:
+cover image of the page. For example this page has a `Cover` defined in
+post metadata. Example metadata used in this post:
 
 ```text
 Title: Medius
