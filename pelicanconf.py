@@ -50,7 +50,8 @@ MEDIUS_AUTHORS = {
         """,
         'cover': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Milky_Way_Arch.jpg/1920px-Milky_Way_Arch.jpg',
         'image': 'https://lh6.googleusercontent.com/-zEMaXmWAhdI/AAAAAAAAAAI/AAAAAAAAAAA/eVdgsm3TIDU/s128-c-k/photo.jpg',
-        'links': (('github', 'https://github.com/onuraslan'),
-                  ('twitter-square', 'https://twitter.com/oasln')),
+        'links': (('github-square', 'https://github.com/onuraslan'),
+                  ('twitter-square', 'https://twitter.com/oasln'),
+                  ('envelope-square', '#')),
     }
 }
