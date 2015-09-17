@@ -1,3 +1,10 @@
+/*
+ * Medius - Responsive theme for pelican
+ * https://github.com/onuraslan/medius
+ *
+ * Copyright (C) 2015  Onur Aslan  <onur@onur.im>
+ * Licensed under MIT
+ */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic&subset=latin,latin-ext);
@@ -191,17 +198,17 @@ div.main-container {
             }
         }
 
-       div.post-footer a {
-           color: #57ad68;
-           font-size: 14px;
-           line-height: 35px;
-           text-decoration: none;
-           letter-spacing: -0.02em;
-       }
+        div.post-footer a {
+            color: #57ad68;
+            font-size: 14px;
+            line-height: 35px;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
 
-       div.post-footer a:hover {
-           text-decoration: underline;
-       }
+        div.post-footer a:hover {
+            text-decoration: underline;
+        }
 
     }
 
@@ -243,10 +250,10 @@ div.main-container {
 
         @media #{$media-md} {
             max-width: 420px;  // FIXME: this is not how post images displayed
-                               //        in medium. This is my lazy way to show
-                               //        post images. But since pelican is a
-                               //        static website generator, I think this
-                               //        way is more suitable for it.
+            //        in medium. This is my lazy way to show
+            //        post images. But since pelican is a
+            //        static website generator, I think this
+            //        way is more suitable for it.
         }
     }
 
@@ -835,60 +842,60 @@ div.author-page-container {
     text-align: left;
 
     div.post {
-       margin: 40px 0 60px 0;
-       padding-bottom: 40px;
-       border-bottom: 1px solid rgba(0,0,0,0.10);
+        margin: 40px 0 60px 0;
+        padding-bottom: 40px;
+        border-bottom: 1px solid rgba(0,0,0,0.10);
 
-       div.post-meta {
-           padding-bottom: 20px;
-       }
+        div.post-meta {
+            padding-bottom: 20px;
+        }
 
-       h2 {
-           font-size: 22px;
-           font-weight: bold;
-           line-height: 1.3;
-           letter-spacing: -0.02em;
-           a {
-               color: rgba(0, 0, 0, 0.8);
-               text-decoration: none;
-           }
-       }
+        h2 {
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+            a {
+                color: rgba(0, 0, 0, 0.8);
+                text-decoration: none;
+            }
+        }
 
-       div.post-content {
-           font-family: $font-family-serif;
-           font-size: 18px;
-           line-height: 1.45;
+        div.post-content {
+            font-family: $font-family-serif;
+            font-size: 18px;
+            line-height: 1.45;
             a {
                 background-position: 0px 23px;
             }
-       }
+        }
 
-       div.post-footer a {
-           color: #57ad68;
-           font-size: 14px;
-           line-height: 35px;
-           text-decoration: none;
-           letter-spacing: -0.02em;
-       }
+        div.post-footer a {
+            color: #57ad68;
+            font-size: 14px;
+            line-height: 35px;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
 
-       div.post-footer a:hover {
-           text-decoration: underline;
-       }
+        div.post-footer a:hover {
+            text-decoration: underline;
+        }
 
-       img.post-image {
+        img.post-image {
 
-           width: 95%;
+            width: 95%;
 
-           @media #{$media-sm} {
-               max-width: 420px;  // FIXME: this is not how post images
-                                  //        displayed in medium. This is my
-                                  //        lazy way to show post images. But
-                                  //        since pelican is a static website
-                                  //        generator, I think this way is
-                                  //        more suitable for it.
+            @media #{$media-sm} {
+                max-width: 420px;  // FIXME: this is not how post images
+                                   //        displayed in medium. This is my
+                                   //        lazy way to show post images. But
+                                   //        since pelican is a static website
+                                   //        generator, I think this way is
+                                   //        more suitable for it.
 
-           }
-       }
+            }
+        }
     }
 }
 
