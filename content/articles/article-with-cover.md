@@ -2,8 +2,8 @@ Title: Medius
 Category: Category
 Date: 2015-09-11
 SubTitle: The medium is the message
-Image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/1920px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
-SmallImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/800px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
+Cover: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/1920px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
+Thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/800px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
 
 
 *All images used in this demo are taken from Wikipedia commons and they are
@@ -84,9 +84,9 @@ cover image, description and profile image.
 
 ### Post Images
 
-A post can have a `SubTitle`, a big cover `Image` and a `SmallImage` that
-is used in various places. `Image` is only used in article.html and it's
-cover of the page. For example this page has a cover `Image` defined in
+A post can have a `SubTitle`, a big `Cover` image and a `Thumbnail` that
+is used in various places. `Cover` is only used in article.html and it's
+cover image of the page. For example this page has a cover `Cover` defined in
 post meta data. Example meta data used in this post:
 
 ```text
@@ -94,15 +94,15 @@ Title: Medius
 Category: Category
 Date: 2015-09-11
 SubTitle: The medium is the message
-Image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/1920px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
-SmallImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/800px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
+Cover: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/1920px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
+Thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/800px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg
 ```
 
 Check [one of the other page]({filename}/articles/article-without-cover-01.md) that
-has no cover and only `SmallImage` defined in metadata.
+has no cover and only `Thumbnail` defined in metadata.
 
-You don't need to supply a `Image` or `SmallImage` in your posts, but
+You don't need to supply a `Cover` or `Thumbnail` in your posts, but
 [category pages]({category}Category) will look better if you supply
-`SmallImage` in all of your posts.
+`Thumbnail` in all of your posts.
 
 Demo is fully available in [demo branch](https://github.com/onuraslan/medius/tree/demo).

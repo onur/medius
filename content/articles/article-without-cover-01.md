@@ -1,7 +1,7 @@
 Title: Article without cover 01
 Category: Category
 Date: 2015-09-10
-SmallImage: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kepler186f-ArtistConcept-20140417.jpg/800px-Kepler186f-ArtistConcept-20140417.jpg
+Thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kepler186f-ArtistConcept-20140417.jpg/800px-Kepler186f-ArtistConcept-20140417.jpg
 SubTitle: This is subtitle
 Tags: Kepler
 
@@ -16,7 +16,7 @@ conference on 19 March 2014 and some details were reported in the media
 at the time.[10] The full public announcement was on 17 April 2014,
 followed by publication in Science.[1]
 
-Image Copyright: Released on public domain by [NASA](http://www.nasa.gov/ames/kepler/digital-press-kit-kepler-186f-an-earth-size-habitable-zone-planet/#.U1Ax5PldUpm)
+Cover Copyright: Released on public domain by [NASA](http://www.nasa.gov/ames/kepler/digital-press-kit-kepler-186f-an-earth-size-habitable-zone-planet/#.U1Ax5PldUpm)
 
 ### Lorem
 
