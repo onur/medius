@@ -17,8 +17,8 @@ div.post-content h3, div.entry-content h3 { font-size: 32px; }
 div.post-content h4, div.entry-content h4 { font-size: 28px; }
 div.post-content h5, div.post-content h6, div.entry-content h5, div.entry-content h6 { font-size: 26px; }
 div.post-content h3, div.post-content h4, div.post-content h5, div.post-content h6, div.entry-content h3, div.entry-content h4, div.entry-content h5, div.entry-content h6 { font-weight: 300; }
-div.post-content a, div.entry-content a { color: rgba(0, 0, 0, 0.8); background-position: 0px 20px; background-repeat: repeat-x; background-size: 2px 2px; background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.6) 50%); }
-@media screen and (min-width: 35.5em) { div.post-content a, div.entry-content a { background-position: 0px 23px; } }
+div.post-content a, div.entry-content a { color: rgba(0, 0, 0, 0.8); background-position: 0px 17px; background-repeat: repeat-x; background-size: 2px 2px; background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.6) 50%); }
+@media screen and (min-width: 35.5em) { div.post-content a, div.entry-content a { background-position: 0px 20px; } }
 
 div.main-nav-container { height: 65px; position: absolute; top: 0; width: 100%; text-align: right; box-shadow: 0 0 1px rgba(0, 0, 0, 0.15); }
 div.main-nav-container div.main-nav { text-align: center; }
@@ -65,8 +65,8 @@ div.post-meta div.meta-data a.author { color: inherit; }
 div.post-meta div.meta-data a.author:hover { color: rgba(0, 0, 0, 0.6); }
 
 div.page-container { text-align: center; margin-top: 80px; }
-div.page-container div.entry-content { max-width: 700px; margin: 0 auto; text-align: left; font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 20px; line-height: 1.5; padding: 20px; }
-@media screen and (min-width: 35.5em) { div.page-container div.entry-content { font-size: 22px; } }
+div.page-container div.entry-content { max-width: 700px; margin: 0 auto; text-align: left; font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; line-height: 1.5; padding: 20px; }
+@media screen and (min-width: 35.5em) { div.page-container div.entry-content { font-size: 20px; } }
 div.page-container footer { margin: 0 auto; text-align: left; max-width: 700px; }
 div.page-container footer div.post-footer { padding: 20px; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(0, 0, 0, 0.1); margin: 30px 0 40px 0; }
 @media screen and (min-width: 48em) { div.page-container footer div.post-footer { padding: 40px 0; } }

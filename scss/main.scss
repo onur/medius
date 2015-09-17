@@ -87,13 +87,13 @@ div.post-content, div.entry-content {
 
     a {
         color: rgba(0, 0, 0, 0.8);
-        background-position: 0px 20px;
+        background-position: 0px 17px;
         background-repeat: repeat-x;
         background-size: 2px 2px;
         background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 50%);
 
         @media #{$media-sm} {
-            background-position: 0px 23px;
+            background-position: 0px 20px;
         }
     }
 }
@@ -366,12 +366,12 @@ div.page-container {
         margin: 0 auto;
         text-align: left;
         font-family: $font-family-serif;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.5;
         padding: 20px;
 
         @media #{$media-sm} {
-            font-size: 22px;
+            font-size: 20px;
         }
     }
 
