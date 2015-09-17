@@ -1,3 +1,4 @@
+/* Medius - Responsive theme for pelican https://github.com/onuraslan/medius  Copyright (C) 2015  Onur Aslan  <onur@onur.im> Licensed under MIT */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic&subset=latin,latin-ext);
 html, body { margin: 0; padding: 0; text-align: center; }
@@ -108,9 +109,16 @@ div.category-page-container div.section-header { color: rgba(0, 0, 0, 0.6); text
 div.category-page-container span.header { position: absolute !important; top: -9999px !important; left: -9999px !important; }
 div.category-page-container div.article-row div.col { padding: 20px 30px 20px 0; }
 div.category-page-container div.article-row a.article-thumbnail { display: block; width: 100%; background-color: #f0f0f0; background-position: center; background-origin: border-box; background-size: cover; border: 1px solid rgba(0, 0, 0, 0.15); }
-div.category-page-container div.article-row a.article-thumbnail-1 { height: 350px; }
-div.category-page-container div.article-row a.article-thumbnail-2 { height: 272px; }
-div.category-page-container div.article-row a.article-thumbnail-3 { height: 174px; }
+div.category-page-container div.article-row a.article-thumbnail-1 { height: 200px; }
+@media screen and (min-width: 35.5em) { div.category-page-container div.article-row a.article-thumbnail-1 { height: 275px; } }
+@media screen and (min-width: 48em) { div.category-page-container div.article-row a.article-thumbnail-1 { height: 350px; } }
+div.category-page-container div.article-row a.article-thumbnail-2 { height: 200px; }
+@media screen and (min-width: 35.5em) { div.category-page-container div.article-row a.article-thumbnail-2 { height: 220px; } }
+@media screen and (min-width: 48em) { div.category-page-container div.article-row a.article-thumbnail-2 { height: 272px; } }
+div.category-page-container div.article-row a.article-thumbnail-3 { height: 200px; }
+@media screen and (min-width: 35.5em) { div.category-page-container div.article-row a.article-thumbnail-3 { height: 275px; } }
+@media screen and (min-width: 48em) { div.category-page-container div.article-row a.article-thumbnail-3 { height: 350px; } }
+@media screen and (min-width: 64em) { div.category-page-container div.article-row a.article-thumbnail-3 { height: 174px; } }
 div.category-page-container div.article-info { text-align: left; }
 div.category-page-container div.article-info a { color: rgba(0, 0, 0, 0.9); text-decoration: none; }
 div.category-page-container div.article-info h1, div.category-page-container div.article-info h2 { line-height: 1.1; font-weight: bold; letter-spacing: -0.02em; padding: 10px 0; margin: 0; }

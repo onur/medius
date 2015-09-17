@@ -651,15 +651,43 @@ div.category-page-container {
         }
 
         a.article-thumbnail-1 {
-            height: 350px;
+            height: 200px;
+
+            @media #{$media-sm} {
+                height: 275px;
+            }
+
+            @media #{$media-md} {
+                height: 350px;
+            }
         }
 
         a.article-thumbnail-2 {
-            height: 272px;
+            height: 200px;
+
+            @media #{$media-sm} {
+                height: 220px;
+            }
+
+            @media #{$media-md} {
+                height: 272px;
+            }
         }
 
         a.article-thumbnail-3 {
-            height: 174px;
+            height: 200px;
+
+            @media #{$media-sm} {
+                height: 275px;
+            }
+
+            @media #{$media-md} {
+                height: 350px;
+            }
+
+            @media #{$media-lg} {
+                height: 174px;
+            }
         }
 
     }
