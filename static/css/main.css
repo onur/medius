@@ -144,8 +144,8 @@ div.author-page-header div.author-profile h1 { font-weight: bold; font-size: 36p
 div.author-page-header div.author-profile p.author-description { font-size: 18px; color: rgba(0, 0, 0, 0.6); outline: 0; word-break: break-word; word-wrap: break-word; letter-spacing: -0.02em; }
 div.author-page-header div.author-profile ul.author-links { list-style-type: none; margin: 0; padding: 0; }
 div.author-page-header div.author-profile ul.author-links li { display: inline; }
-div.author-page-header div.author-profile ul.author-links li a { color: rgba(0, 0, 0, 0.8); font-size: 48px; border-right: 1px solid rgba(0, 0, 0, 0.05); padding: 0 10px; }
-@media screen and (min-width: 35.5em) { div.author-page-header div.author-profile ul.author-links li a { font-size: 64px; padding: 0 15px; } }
+div.author-page-header div.author-profile ul.author-links li a { color: rgba(0, 0, 0, 0.8); font-size: 36px; border-right: 1px solid rgba(0, 0, 0, 0.05); padding: 0 10px; transition: 100ms background-color, 100ms border-color,100ms color,100ms fill; }
+@media screen and (min-width: 35.5em) { div.author-page-header div.author-profile ul.author-links li a { font-size: 48px; padding: 0 15px; } }
 div.author-page-header div.author-profile ul.author-links li a:hover { color: rgba(0, 0, 0, 0.6); }
 div.author-page-header div.author-profile ul.author-links li:last-child a { border-right: none; }
 

@@ -824,12 +824,14 @@ div.author-page-header {
 
                 a {
                     color: rgba(0, 0, 0, 0.8);
-                    font-size: 48px;
+                    font-size: 36px;
                     border-right: 1px solid rgba(0,0,0,0.05);
                     padding: 0 10px;
+                    transition: 100ms background-color,
+                                100ms border-color,100ms color,100ms fill;
 
                     @media #{$media-sm} {
-                        font-size: 64px;
+                        font-size: 48px;
                         padding: 0 15px;
                     }
                 }
