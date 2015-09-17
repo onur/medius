@@ -13,8 +13,8 @@ Medius is a responsive theme for
 [Pelican](http://blog.getpelican.com/). It is heavily inspired from
 [medium](https://medium.com). Medius means medium in Latin.
 
-It is still under development and you can find latest version of medius in
-[github](https://github.com/onuraslan/medius) repository. PR's are
+It is still under development and you can find the latest version of medius
+in [github](https://github.com/onuraslan/medius) repository. PRs are
 welcomed!
 
 Medius comes with few templates:
@@ -31,7 +31,7 @@ fonts: *Open Sans* and *Merriweater*.
 
 ### Categories
 
-Medius is using few settings defined in `pelicanconf.py` and article meta data
+Medius is using few settings defined in `pelicanconf.py` and article metadata
 for page images and thumbnails.
 
 A category can have a description, logo and thumbnail. You can define your
@@ -99,7 +99,7 @@ SmallImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005
 ```
 
 Check [one of the other page]({filename}/articles/article-without-cover-01.md) that
-has no cover and only `SmallImage` defined in meta data.
+has no cover and only `SmallImage` defined in metadata.
 
 You don't need to supply a `Image` or `SmallImage` in your posts, but
 [category pages]({category}Category) will look better if you supply
