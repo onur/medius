@@ -20,6 +20,8 @@ div.post-content h3, div.post-content h4, div.post-content h5, div.post-content 
 div.post-content a, div.entry-content a { color: rgba(0, 0, 0, 0.8); background-position: 0px 17px; background-repeat: repeat-x; background-size: 2px 2px; background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.6) 50%); }
 @media screen and (min-width: 35.5em) { div.post-content a, div.entry-content a { background-position: 0px 20px; } }
 div.post-content img, div.entry-content img { max-width: 100%; }
+div.post-content hr, div.entry-content hr { margin: 40px auto; width: 80%; border: 0; text-align: center; height: 1px; background-color: rgba(0, 0, 0, 0.1); }
+@media screen and (min-width: 35.5em) { div.post-content hr, div.entry-content hr { width: 50%; } }
 
 div.main-nav-container { height: 65px; position: absolute; top: 0; width: 100%; text-align: right; box-shadow: 0 0 1px rgba(0, 0, 0, 0.15); }
 div.main-nav-container div.main-nav { text-align: center; }
