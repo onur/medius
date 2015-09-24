@@ -738,7 +738,8 @@ div.category-page-container {
             font-size: 24px;
         }
 
-        p {
+        // FIXME: this is not ideal way to fix content
+        blockquote, p {
             margin: 0;
             font-weight: 300;
             letter-spacing: -0.02em;
