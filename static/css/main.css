@@ -128,7 +128,7 @@ div.category-page-container div.article-info h1, div.category-page-container div
 div.category-page-container div.article-info h1 { font-size: 24px; }
 @media screen and (min-width: 35.5em) { div.category-page-container div.article-info h1 { font-size: 36px; } }
 div.category-page-container div.article-info h2 { font-size: 24px; }
-div.category-page-container div.article-info blockquote, div.category-page-container div.article-info p { margin: 0; font-weight: 300; letter-spacing: -0.02em; }
+div.category-page-container div.article-info blockquote, div.category-page-container div.article-info p { margin: 0; font-weight: 300; letter-spacing: -0.02em; border: 0; }
 div.category-page-container div.article-info div.post-meta { padding: 18px 0; }
 div.category-page-container div.article-info div.post-meta img { border-radius: 100%; }
 
