@@ -55,7 +55,7 @@
                 <div class="pure-g poster-info">
                     {% if author|string in MEDIUS_AUTHORS %}
                     <div class="pure-u">
-                        <img src="{{ MEDIUS_AUTHORS.get(author|string).image }}" alt="">
+                        <a href="{{ SITEURL }}/{{ author.url }}"><img src="{{ MEDIUS_AUTHORS.get(author|string).image }}" alt=""></a>
                     </div>
                     {% endif %}
                     <div class="pure-u-3-4">
