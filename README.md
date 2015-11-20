@@ -3,3 +3,6 @@ heavily inspired from [medium](https://medium.com).
 
 See details and usage information in [demo
 website](https://onur.github.io/medius/medius.html).
+
+
+![Screenshot](/screenshot.png?raw=true)
