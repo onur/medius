@@ -542,8 +542,6 @@ div.article-header-container {
 
         div.background-image-small {
 
-            margin-top: 20px;
-
             img {
                 max-width: 90%;
 
@@ -566,7 +564,7 @@ div.article-header-container {
                 h1 {
                     font-size: 36px;
                     line-height: 1;
-                    margin: 40px 20px 10px 20px;
+                    margin: 0 20px 10px 20px;
                     padding-top: 20px;
 
                     @media #{$media-sm} {
