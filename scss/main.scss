@@ -12,6 +12,7 @@
 
 $font-family-sans: 'Open Sans', jaf-bernino-sans, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 $font-family-serif: Merriweather, freight-text-pro, Georgia, Cambria, 'Times New Roman', Times, serif;
+$font-family-mono: Consolas, 'Deja Vu Sans Mono', 'Ubuntu Mono', 'Bitstream Vera Sans Mono', Monaco, 'Courier New', monospace;
 
 
 // pure compatible media queries
@@ -992,19 +993,24 @@ div.tags a:hover {
     text-decoration: none;
 }
 
+pre, code {
+    font-family: $font-family-mono;
+}
 
 pre {
-    font-family: Consolas, 'Deja Vu Sans Mono', 'Ubuntu Mono', 'Bitstream Vera Sans Mono', Monaco, 'Courier New', monospace;
     font-size: 16px;
     line-height: 1.4;
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
+    background-color: #F8F8F8;
+    border: 1px solid #E6E6E6;
     border-radius: 4px;
-    padding: 9.5px;
+    padding: 6px 9.5px;
 }
 
 code {
-    font-family: Consolas, 'Deja Vu Sans Mono', 'Ubuntu Mono', 'Bitstream Vera Sans Mono', Monaco, 'Courier New', monospace;
+    background-color: #F8F8F8;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    padding: 2px 5px 0 5px;
 }
 
 blockquote {

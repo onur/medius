@@ -174,9 +174,11 @@ div.tags a { color: rgba(0, 0, 0, 0.6); background: rgba(255, 255, 255, 0.97); f
 
 div.tags a:hover { color: #468c54; border-color: #a9d8b2; background: rgba(87, 173, 104, 0.1); text-decoration: none; }
 
-pre { font-family: Consolas, 'Deja Vu Sans Mono', 'Ubuntu Mono', 'Bitstream Vera Sans Mono', Monaco, 'Courier New', monospace; font-size: 16px; line-height: 1.4; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px; padding: 9.5px; }
+pre, code { font-family: Consolas, "Deja Vu Sans Mono", "Ubuntu Mono", "Bitstream Vera Sans Mono", Monaco, "Courier New", monospace; }
 
-code { font-family: Consolas, 'Deja Vu Sans Mono', 'Ubuntu Mono', 'Bitstream Vera Sans Mono', Monaco, 'Courier New', monospace; }
+pre { font-size: 16px; line-height: 1.4; background-color: #F8F8F8; border: 1px solid #E6E6E6; border-radius: 4px; padding: 6px 9.5px; }
+
+code { background-color: #F8F8F8; border: 1px solid #E6E6E6; border-radius: 4px; padding: 2px 5px 0 5px; }
 
 blockquote { border-left: 3px solid rgba(0, 0, 0, 0.8); font-style: italic; padding-left: 20px; margin-left: -23px; margin-bottom: 30px; }
 
