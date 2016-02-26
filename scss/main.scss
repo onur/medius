@@ -7,7 +7,7 @@
  */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin,latin-ext);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic&subset=latin,latin-ext);
 
 
 $font-family-sans: 'Open Sans', jaf-bernino-sans, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
@@ -381,7 +381,8 @@ div.page-container {
         padding: 20px;
 
         @media #{$media-sm} {
-            font-size: 20px;
+            font-weight: 300;
+            line-height: 1.6;
         }
     }
 
@@ -927,6 +928,7 @@ div.author-page-container {
         div.post-content {
             font-family: $font-family-serif;
             font-size: 18px;
+            font-weight: 300;
             line-height: 1.45;
             a {
                 background-position: 0px 23px;
