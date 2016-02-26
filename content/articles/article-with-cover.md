@@ -20,8 +20,8 @@ welcomed!
 Medius comes with few templates:
 
 1. [Index]({index})
-2. [Category Page]({category}Category)
-3. [Author Page]({author}Onur Aslan)
+2. [Category Page](https://onur.github.io/medius/category/category.html)
+3. [Author Page](https://onur.github.io/medius/author/onur-aslan.html)
 
 
 ### Fonts
