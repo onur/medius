@@ -1,6 +1,6 @@
 /* Medius - Responsive theme for pelican https://github.com/onuraslan/medius  Copyright (C) 2015  Onur Aslan  <onur@onur.im> Licensed under MIT */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin,latin-ext);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic&subset=latin,latin-ext);
 html, body { margin: 0; padding: 0; text-align: center; }
 
 body { line-height: 1.4; color: rgba(0, 0, 0, 0.8); }
@@ -68,7 +68,7 @@ div.post-meta div.meta-data a.author:hover { color: rgba(0, 0, 0, 0.6); }
 
 div.page-container { text-align: center; margin-top: 80px; }
 div.page-container div.entry-content { max-width: 700px; margin: 0 auto; text-align: left; font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; line-height: 1.5; padding: 20px; }
-@media screen and (min-width: 35.5em) { div.page-container div.entry-content { font-size: 20px; } }
+@media screen and (min-width: 35.5em) { div.page-container div.entry-content { font-weight: 300; line-height: 1.6; } }
 div.page-container footer { margin: 0 auto; text-align: left; max-width: 700px; }
 div.page-container footer div.post-footer { padding: 20px; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(0, 0, 0, 0.1); margin: 30px 0 40px 0; }
 @media screen and (min-width: 48em) { div.page-container footer div.post-footer { padding: 40px 0; } }
@@ -161,7 +161,7 @@ div.author-page-container div.post { margin: 40px 0 60px 0; padding-bottom: 40px
 div.author-page-container div.post div.post-meta { padding-bottom: 20px; }
 div.author-page-container div.post h2 { font-size: 22px; font-weight: bold; line-height: 1.3; letter-spacing: -0.02em; }
 div.author-page-container div.post h2 a { color: rgba(0, 0, 0, 0.8); text-decoration: none; }
-div.author-page-container div.post div.post-content { font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; line-height: 1.45; }
+div.author-page-container div.post div.post-content { font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; font-weight: 300; line-height: 1.45; }
 div.author-page-container div.post div.post-content a { background-position: 0px 23px; }
 div.author-page-container div.post div.post-footer a { color: #57ad68; font-size: 14px; line-height: 35px; text-decoration: none; letter-spacing: -0.02em; }
 div.author-page-container div.post div.post-footer a:hover { text-decoration: underline; }
