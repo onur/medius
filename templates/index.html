@@ -45,27 +45,6 @@
 
             {% include "pagination.html" %}
 
-            <footer class="index-footer">
-
-                <a href="{{ SITEURL }}/" title="{{ SITENAME|striptags }}">{{ SITENAME }}</a>
-                {% for title, link in MENUITEMS %}
-                <a href="{{ link }}">{{ title }}</a></li>
-                {% endfor %}
-                {% if DISPLAY_PAGES_ON_MENU %}
-                {% for p in PAGES %}
-                <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
-                {% endfor %}
-                {% endif %}
-                {% if DISPLAY_CATEGORIES_ON_MENU %}
-                {% for cat, null in categories %}
-                <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>
-                {% endfor %}
-                {% endif %}
-                {% for title, link in LINKS %}
-                <a href="{{ link }}">{{ title }}</a>
-                {% endfor %}
-
-            </footer>
 
         </div>
 

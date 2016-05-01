@@ -59,6 +59,8 @@ div.metabar-container {
 
 
 div.post-content, div.entry-content {
+
+    font-weight: 300;
     font-family: $font-family-serif;
 
     h1, h2, h3, h4, h5, h6 {
@@ -109,62 +111,10 @@ div.post-content, div.entry-content {
 }
 
 
-div.main-nav-container {
-
-    height: 65px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    text-align: right;
-    box-shadow: 0 0 1px rgba(0,0,0,0.15);
-
-
-    div.main-nav {
-        text-align: center;
-
-        ul.main-nav-list {
-            list-style-position: outside;
-            display: inline-block;
-            list-style: none;
-            padding: 0;
-            margin: 0 auto;
-            text-align: left;
-
-            @media #{$media-md} {
-                min-width: 560px;
-            }
-
-            li.main-nav-item {
-                display: inline-block;
-                margin-right: 20px;
-                margin-top: -1px;
-
-                list-style-position: outside;
-
-                a {
-                    padding: 31px 0 20px;
-                    letter-spacing: .1em;
-                    text-transform: uppercase;
-                    font-size: 11px;
-                }
-                a:hover, a:focus {
-                    color: rgba(0,0,0,0.9);
-                    /* override pure background */
-                    background: none;
-                }
-            }
-
-            li.active {
-                border-bottom: 2px rgba(0,0,0,0.8) solid;
-                a {
-                    color: rgba(0,0,0,0.8);
-                    font-weight: bold;
-                }
-            }
-
-        }
-    }
-
+div.navigation {
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
@@ -172,22 +122,31 @@ div.main-nav-container {
 div.main-container {
 
     text-align: right;
-    margin-top: 67px;
-    padding: 20px;
+    padding: 5px;
+    background-color: #fafafa;
+
+    .pure-g {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 
     @media #{$media-md} {
-        padding: 0;
+        padding: 20px;
     }
 
     div.post {
         width: 100%;
-        margin: 20px auto;
         text-align: left;
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-        padding-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 4px 0px;
+        border-radius: 3px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid rgba(0,0,0,.09);
+        background-color: #fff;
+        box-sizing:border-box;
 
-        @media #{$media-md} {
-            width: 580px;
+        @media #{$media-lg} {
+            padding: 20px;
         }
 
 
@@ -223,29 +182,21 @@ div.main-container {
     }
 
     div.right-container {
-        text-align: right;
-        width: 100%;
-
-        @media #{$media-md} {
-            width: 580px;
-            margin: 0 auto;
-        }
+        text-align: left;
 
         @media #{$media-lg} {
-            width: 400px;
-            float: right;
+            padding-left: 20px;
         }
 
         div.right-bar {
-            text-align: left;
-            box-shadow: -1px 0 1px -2px rgba(0,0,0,0.9);
-            padding: 30px;
+            //padding: 20px 0;
 
             div.right-head {
-                border-top: 1px rgba(0,0,0,0.44) solid;
                 color: rgba(0,0,0,0.8);
+                border-bottom: 1px solid rgba(0,0,0,.0785);
                 font-weight: bold;
-                padding: 16px 0 20px;
+                padding: 10px 0 10px 0;
+                margin-bottom: 10px;
                 letter-spacing: .1em;
                 text-transform: uppercase;
                 font-size: 11px;
@@ -265,33 +216,6 @@ div.main-container {
                                //        static website generator, I think this
                                //        way is more suitable for it.
         }
-    }
-
-
-    footer.index-footer {
-
-        width: 100%;
-        margin: 0 auto;
-        text-align: left;
-        padding: 10px 0 25px;
-
-        @media #{$media-md} {
-            width: 580px;
-        }
-
-        a {
-            display: inline-block;
-            color: rgba(0,0,0,0.3);
-            font-size: 12px;
-            margin-right: 16px;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: rgba(0,0,0,0.6);
-        }
-
     }
 
 
@@ -317,6 +241,29 @@ div.main-container {
 
 }
 
+
+footer.index-footer {
+
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0 25px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+
+    a {
+        display: inline-block;
+        color: rgba(0,0,0,0.3);
+        font-size: 12px;
+        margin-right: 16px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: rgba(0,0,0,0.6);
+    }
+
+}
 
 
 div.post-meta {
@@ -381,7 +328,6 @@ div.page-container {
         padding: 20px;
 
         @media #{$media-sm} {
-            font-weight: 300;
             line-height: 1.6;
         }
     }
@@ -733,7 +679,6 @@ div.category-page-container {
         // FIXME: this is not ideal way to fix content
         blockquote, p {
             margin: 0;
-            font-weight: 300;
             letter-spacing: -0.02em;
             border: 0;
             padding: 0;
@@ -928,7 +873,6 @@ div.author-page-container {
         div.post-content {
             font-family: $font-family-serif;
             font-size: 18px;
-            font-weight: 300;
             line-height: 1.45;
             a {
                 background-position: 0px 23px;
