@@ -11,23 +11,14 @@
 </head>
 <body>
 
-    <div class="main-nav-container">
+    <div class="navigation pure-menu pure-menu-horizontal">
+        <a href="https://onur.github.io/medius/" class="pure-menu-heading  pure-menu-link">Medius</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"></li>
 
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-lg-2-3">
-                <div class="main-nav">
-                    <ul class="main-nav-list">
-                        <li class="main-nav-item"><a href="https://onur.github.io/medius/" class="pure-menu-link">Medius</a></li>
-
-                        <li class="main-nav-item"><a href="https://onur.github.io/medius/pages/page.html" class="pure-menu-link">Page</a></li>
-                        <li class="main-nav-item active"><a href="https://onur.github.io/medius/category/category.html" class="pure-menu-link">Category</a></li>
-                    </ul>
-                </div>
-             </div>
-
-             <div class="pure-u-1 pure-u-lg-1-3"></div>
-        </div>
-
+            <li class="pure-menu-item"><a href="https://onur.github.io/medius/pages/page.html" class="pure-menu-link">Page</a></li>
+            <li class="pure-menu-item pure-menu-selected"><a href="https://onur.github.io/medius/category/category.html" class="pure-menu-link">Category</a></li>
+        </ul>
     </div>
 
 
@@ -76,7 +67,7 @@ welcomed!</p>
 <ol>
 <li><a href="{index}">Index</a></li>
 <li><a href="https://onur.github.io/medius/category/category.html">Category Page</a></li>
-<li><a href="{author}Onur Aslan">Author Page</a></li>
+<li><a href="https://onur.github.io/medius/author/onur-aslan.html">Author Page</a></li>
 </ol>
 <h3>Fonts</h3>
 <p>Medium is using proprietary sans and serif fonts. I used similar free
@@ -89,7 +80,7 @@ categories in <code>pelicanconf.py</code> by using <code>MEDIUS_CATEGORIES</code
 <code>MEDIUS_CATEGORIES</code> is a dictionary and it must contain dictionary of
 categories that have description, logo and thumbnail attributes. An example
 of <code>MEDIUS_CATEGORIES</code> defined in this demo:</p>
-<div class="highlight"><pre><span class="n">MEDIUS_CATEGORIES</span> <span class="o">=</span> <span class="p">{</span>
+<div class="highlight"><pre><span></span><span class="n">MEDIUS_CATEGORIES</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;Category Name&#39;</span><span class="p">:</span> <span class="p">{</span>
         <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas and dust, and dark matter.&#39;</span><span class="p">,</span>
         <span class="s1">&#39;logo&#39;</span><span class="p">:</span> <span class="s1">&#39;https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GalacticRotation2.svg/250px-GalacticRotation2.svg.png&#39;</span><span class="p">,</span>
@@ -108,7 +99,7 @@ icons. First element must contain name of icon without fa prefix and second
 element must be URL for this icon.</p>
 <p>Example
 <code>MEDIUS_AUTHORS</code> defined in pelicanconf.py for this demo:</p>
-<div class="highlight"><pre><span class="n">MEDIUS_AUTHORS</span> <span class="o">=</span> <span class="p">{</span>
+<div class="highlight"><pre><span></span><span class="n">MEDIUS_AUTHORS</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;Onur Aslan&#39;</span><span class="p">:</span> <span class="p">{</span>
         <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">            I am a superhero saving thousand of lives in Internet.</span>
@@ -129,7 +120,7 @@ cover image, description and profile image.</p>
 is used in various places. <code>Cover</code> is only used in article.html and it's
 cover image of the page. For example this page has a <code>Cover</code> defined in
 post metadata. Example metadata used in this post:</p>
-<div class="highlight"><pre>Title: Medius
+<div class="highlight"><pre><span></span>Title: Medius
 Category: Category
 Date: 2015-09-11
 SubTitle: The medium is the message
@@ -201,6 +192,18 @@ has no cover and only <code>Thumbnail</code> defined in metadata.</p>
 
 </div>
 
+
+
+    <footer class="index-footer">
+
+        <a href="https://onur.github.io/medius/" title="Medius">Medius</a>
+        <a href="https://onur.github.io/medius/pages/page.html">Page</a>
+        <a href="https://onur.github.io/medius/category/category.html">Category</a>
+        <a href="http://getpelican.com/">Pelican</a>
+        <a href="http://python.org/">Python.org</a>
+        <a href="http://jinja.pocoo.org/">Jinja2</a>
+
+    </footer>
 
 </body>
 </html>
