@@ -480,7 +480,7 @@ div.author-page-divider:before {
   content: "";
   display: block;
   position: absolute;
-  top: 11px;
+  top: 14px;
   width: 100%;
   border-top: 1px solid rgba(0, 0, 0, 0.15); }
 
@@ -503,45 +503,6 @@ div.author-page-divider {
   div.author-page-divider span:hover {
     border-color: rgba(0, 0, 0, 0.6);
     color: rgba(0, 0, 0, 0.8); }
-
-div.author-page-container {
-  max-width: 620px;
-  margin: 40px auto;
-  padding: 0 20px;
-  text-align: left; }
-  div.author-page-container div.post {
-    margin: 40px 0 60px 0;
-    padding-bottom: 40px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-    div.author-page-container div.post div.post-meta {
-      padding-bottom: 20px; }
-    div.author-page-container div.post h2 {
-      font-size: 22px;
-      font-weight: bold;
-      line-height: 1.3;
-      letter-spacing: -0.02em; }
-      div.author-page-container div.post h2 a {
-        color: rgba(0, 0, 0, 0.8);
-        text-decoration: none; }
-    div.author-page-container div.post div.post-content {
-      font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif;
-      font-size: 18px;
-      line-height: 1.45; }
-      div.author-page-container div.post div.post-content a {
-        background-position: 0px 23px; }
-    div.author-page-container div.post div.post-footer a {
-      color: #57ad68;
-      font-size: 14px;
-      line-height: 35px;
-      text-decoration: none;
-      letter-spacing: -0.02em; }
-    div.author-page-container div.post div.post-footer a:hover {
-      text-decoration: underline; }
-    div.author-page-container div.post img.post-image {
-      width: 95%; }
-      @media screen and (min-width: 35.5em) {
-        div.author-page-container div.post img.post-image {
-          max-width: 420px; } }
 
 div.tags a {
   color: rgba(0, 0, 0, 0.6);

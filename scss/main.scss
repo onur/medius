@@ -811,7 +811,7 @@ div.author-page-divider:before {
     content: "";
     display: block;
     position: absolute;
-    top: 11px;
+    top: 14px;
     width: 100%;
     border-top: 1px solid rgba(0,0,0,0.15);
 }
@@ -838,72 +838,6 @@ div.author-page-divider {
     span:hover {
         border-color: rgba(0,0,0,0.6);
         color: rgba(0,0,0,0.8);
-    }
-}
-
-
-
-div.author-page-container {
-    max-width: 620px;
-    margin: 40px auto;
-    padding: 0 20px;
-    text-align: left;
-
-    div.post {
-        margin: 40px 0 60px 0;
-        padding-bottom: 40px;
-        border-bottom: 1px solid rgba(0,0,0,0.10);
-
-        div.post-meta {
-            padding-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 22px;
-            font-weight: bold;
-            line-height: 1.3;
-            letter-spacing: -0.02em;
-            a {
-                color: rgba(0, 0, 0, 0.8);
-                text-decoration: none;
-            }
-        }
-
-        div.post-content {
-            font-family: $font-family-serif;
-            font-size: 18px;
-            line-height: 1.45;
-            a {
-                background-position: 0px 23px;
-            }
-        }
-
-        div.post-footer a {
-            color: #57ad68;
-            font-size: 14px;
-            line-height: 35px;
-            text-decoration: none;
-            letter-spacing: -0.02em;
-        }
-
-        div.post-footer a:hover {
-            text-decoration: underline;
-        }
-
-        img.post-image {
-
-            width: 95%;
-
-            @media #{$media-sm} {
-                max-width: 420px;  // FIXME: this is not how post images
-                                   //        displayed in medium. This is my
-                                   //        lazy way to show post images. But
-                                   //        since pelican is a static website
-                                   //        generator, I think this way is
-                                   //        more suitable for it.
-
-            }
-        }
     }
 }
 
