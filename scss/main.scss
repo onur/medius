@@ -592,7 +592,11 @@ div.category-page-container {
     div.article-row {
 
         div.col {
-            padding: 20px 30px 20px 0;
+            padding: 20px 0px 20px 0px;
+
+            @media #{$media-sm} {
+                padding: 20px 15px 20px 15px;
+            }
         }
 
         a.article-thumbnail {

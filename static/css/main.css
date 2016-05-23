@@ -348,7 +348,10 @@ div.category-page-container {
     top: -9999px !important;
     left: -9999px !important; }
   div.category-page-container div.article-row div.col {
-    padding: 20px 30px 20px 0; }
+    padding: 20px 0px 20px 0px; }
+    @media screen and (min-width: 35.5em) {
+      div.category-page-container div.article-row div.col {
+        padding: 20px 15px 20px 15px; } }
   div.category-page-container div.article-row a.article-thumbnail {
     display: block;
     width: 100%;
