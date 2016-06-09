@@ -9,14 +9,7 @@
                 <a href="{{ SITEURL }}/{{ article.category.url }}"><img src="{{ MEDIUS_CATEGORIES.get(article.category|string).thumbnail }} " class="post-avatar" alt="{{ article.category|striptags }}"></a>
             </div>
             {% endif %}
-            <div class="pure-u-3-4 meta-data">
-                <a href="{{ SITEURL }}/{{ article.category.url }}" class="category">{{ article.category }}</a><br />
-
-                {% for author in article.authors %}
-                <a class="author" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                {% endfor %}
-                &mdash; <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
-            </div>
+            {% include "includes/post_metadata.html" %}
         </div>
     </div>
 
