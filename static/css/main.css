@@ -43,7 +43,6 @@ div.main-container img.post-image { margin-top: 20px; width: 90%; }
 div.main-container div.heading { text-align: left; }
 div.main-container div.heading div.heading-prefix { color: rgba(0, 0, 0, 0.3); font-size: 11px; }
 div.main-container div.heading h3 { font-weight: 300; font-size: 32px; margin: 0; }
-div.main-container div.pagination { width: 580px; }
 
 footer.index-footer { width: 100%; margin: 0 auto; text-align: center; padding: 10px 0 25px; border-top: 1px solid rgba(0, 0, 0, 0.1); }
 footer.index-footer a { display: inline-block; color: rgba(0, 0, 0, 0.3); font-size: 12px; margin-right: 16px; text-decoration: none; }
