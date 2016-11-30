@@ -10,7 +10,7 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] { font-family: 
 div.metabar-container { height: 65px; position: absolute; top: 0; height: 65px; width: 100%; }
 div.metabar-container div.metabar { height: 100%; box-shadow: 0 0 1px rgba(0, 0, 0, 0.15); }
 
-div.post-content, div.entry-content { font-weight: 300; font-family: "Open Sans", jaf-bernino-sans, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
+div.post-content, div.entry-content { font-weight: 400; font-family: "Open Sans", jaf-bernino-sans, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
 div.post-content h1, div.post-content h2, div.post-content h3, div.post-content h4, div.post-content h5, div.post-content h6, div.entry-content h1, div.entry-content h2, div.entry-content h3, div.entry-content h4, div.entry-content h5, div.entry-content h6 { font-family: "Open Sans", jaf-bernino-sans, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; font-weight: normal; }
 div.post-content h1, div.post-content h2, div.entry-content h1, div.entry-content h2 { font-size: 36px; }
 div.post-content h3, div.entry-content h3 { font-size: 32px; }
